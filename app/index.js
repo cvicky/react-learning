@@ -46,5 +46,6 @@ class Both extends React.Component{
 
 
 ReactDOM.render(
-	<Both/>
+	<Both/>, 
+	document.getElementById('app')
 	)
