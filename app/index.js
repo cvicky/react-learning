@@ -1,8 +1,7 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
 var PropTypes = require('prop-types');
-import 'semantic-ui-css/semantic.min.css';
-import '../semantic/dist/semantic.min.css';
+
 require('./index.css');
 
 //state
@@ -10,11 +9,11 @@ require('./index.css');
 //ui
 
 
-
 class Banner extends React.Component{
 	render(){
 		return(
 			<div> 
+			 	
 				<h1> 10 out of 2500 activated </h1>
 			</div>
 		)
