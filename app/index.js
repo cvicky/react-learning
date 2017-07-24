@@ -1,6 +1,8 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
 var PropTypes = require('prop-types');
+import 'semantic-ui-css/semantic.min.css';
+import '../semantic/dist/semantic.min.css';
 require('./index.css');
 
 //state
