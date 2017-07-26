@@ -1,7 +1,7 @@
 import React from 'react';
 import { render } from 'react-dom';
-var PropTypes = require('prop-types');
-
+import PropTypes from 'prop-types';
+import { Menu, Input, Header, Button, Checkbox, Icon, table } from 'semantic-ui-react';
 
 require('./index.css');
 
