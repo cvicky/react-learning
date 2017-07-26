@@ -1,6 +1,7 @@
-var React = require('react');
-var ReactDOM = require('react-dom');
+import React from 'react';
+import { render } from 'react-dom';
 var PropTypes = require('prop-types');
+
 
 require('./index.css');
 
@@ -13,7 +14,6 @@ class Banner extends React.Component{
 	render(){
 		return(
 			<div> 
-			 	
 				<h1> 10 out of 2500 activated </h1>
 			</div>
 		)
